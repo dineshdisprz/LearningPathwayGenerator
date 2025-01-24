@@ -43,7 +43,7 @@ class ExtractedInfo(BaseModel):
 # Define the function to fetch completion using Azure OpenAI API
 def get_completion(objective):
     prompt = f"""
-            You are a learning designer working at the L&D department company. Your job is to design a learning pathway to meet a particular objective given below. You need to break down the objective into constituent skills, desired levels at these skills and design a series of interventions (each intervention can be a type given below). 
+            You are a learning designer working at the L&D department  company. Your job is to design a learning pathway to meet a particular objective given below. You need to break down the objective into constituent skills, desired levels at these skills and design a series of interventions (each intervention can be a type given below). 
             <Objective>
             {objective}
             </Objective>
